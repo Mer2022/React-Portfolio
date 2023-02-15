@@ -60,7 +60,7 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="">
+              <a href="https://mer2022.github.io/Note-Taker/">
                 {" "}
                 <img
                   src={noteTakerImage}
