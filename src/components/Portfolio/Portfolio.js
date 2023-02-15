@@ -57,30 +57,7 @@ function Portfolio() {
         </div>
 
 
-        <div className="job">
-          <div className="job-info">
-            <div className="job-img">
-              <a href="https://mer2022.github.io/Note-Taker/">
-                {" "}
-                <img
-                  src={noteTakerImage}
-                  className="my-2"
-                  style={{ width: "100%" }}
-                  alt="Note_Taker"
-                />
-              </a>
-            </div>
-            <div className="job-text">
-              <h4>Note Taker</h4>
-              <p>
-                An application that provides the user the ability to add new
-                notes, and to delete notes.{" "}
-              </p>
-            </div>
-          </div>
-        </div>
-
-
+        
         <div className="job">
           <div className="job-info">
             <div className="job-img">
