@@ -1,9 +1,12 @@
-
 import React, { useState } from "react";
 import "./App.css";
 import About from "./components/About/About";
-
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+import Resume from "./components/Resume/Resume";
+import Portfolio from "./components/Portfolio/Portfolio";
 import Header from "./components/Header/Header";
+
 function App() {
   const [currentTab, handleTabChange] = useState("about");
 
@@ -12,14 +15,26 @@ function App() {
     if (currentTab === "About") {
       return <About/>;
     }
-  }
+    if (currentTab === "Contact") {
+      return <Contact />;
+    }
+    if (currentTab === "Portfolio") {
+      return <Portfolio/>;
+    }
+    if (currentTab === "Resume") {
+      return <Resume />;
+    }
+    return <About />;
+  };
 
   return (
     <>
-    <Header
+      <Header
         currentTab={currentTab}
         handleTabChange={handleTabChange}
       ></Header>
+      <main>{renderTab()}</main>
+      <Footer></Footer>
     </>
   );
 }

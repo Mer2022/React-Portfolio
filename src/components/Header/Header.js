@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
+import Nav from "../Nav/Nav";
 
 function Header(props) {
   const { currentTab, handleTabChange } = props;
@@ -12,10 +12,10 @@ function Header(props) {
             <h1>Merrin's portfolio</h1>
           </div>
           <div>
-            <Navbar
+            <Nav
               currentTab={currentTab}
               handleTabChange={handleTabChange}
-            ></Navbar>
+            ></Nav>
           </div>
         </header>
       </section>
