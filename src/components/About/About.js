@@ -1,7 +1,13 @@
 import React from "react";
+import Avatar from "../../assets/MyAvatar.png"
 function About() {
   return (
     <section id="about-me" className="my-5 intro">
+      <div>
+        <center>
+          <img src= {Avatar}></img>
+        </center>
+      </div>
       <div class="flex-row">
         <h1 id="about" className="section-title primary-border">
           About Me

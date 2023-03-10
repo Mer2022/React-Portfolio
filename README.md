@@ -1,12 +1,11 @@
-## React Portfolio
+## Merrin's Portfolio
 
-## Task
+## Description
+Hello fellow Coders, my name is Merrin Ajo. I currently reside in Texas. I have an Masters in Business Administration and graduated from Texas Woman's University. I have lived in multiple countries throughout my life and loves to learn and get acclimated to new cultures. I love traveling and have a goal to see one new place every year. I recently became interested in coding after meeting two brilliant coders from India. They mentioned about the flexibility they currently have with their jobs as you get to work from home. Most of us struggled to find a stable career during the Covid 19 pandemic and I felt like going into the Coding space could open up new doors in my life that can lead to a stable career and have the flexibility that I have always dreamed of.
 
-The task is to create a portfolio using your new React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies. 
 
-You’ll deploy this application to GitHub Pages. Follow the instructions in the Git Guide or consult the [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages) to create a build that you can deploy.
-
-**Important**: Be sure to push your codebase to the default branch in GitHub -- NOT your built and deployed code. Ensure this happens by using the `gh-pages` branch to host the deployed application's build.
+## Website 
+![HomePage](./src/assets/Homepage.png)
 
 ## User Story
 

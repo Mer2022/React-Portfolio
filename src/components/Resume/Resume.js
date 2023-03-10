@@ -2,7 +2,24 @@ import React from "react";
 import { MdFoundation } from "react-icons/md";
 import { GrTechnology } from "react-icons/gr";
 import { GrDocumentPerformance } from "react-icons/gr";
+import resume from '../../assets/Mer.Resume.pdf';
 
+function DownloadResumeButton() {
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = resume;
+    link.download = 'resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  return (
+    <button className="resume-btn" onClick={handleDownload}>
+      Download Resume
+    </button>
+  );
+}
 function Resume() {
   return (
     <div>
@@ -63,6 +80,9 @@ function Resume() {
           </p>
         </div>
       </section>
+      <center>
+      <DownloadResumeButton/>
+      </center>
     </div>
   );
 }

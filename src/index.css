@@ -19,7 +19,12 @@
   justify-content: space-between;
 
 }
-
+.resume-btn{
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  height: 3rem;
+  margin: 5rem;
+}
 body {
   /* more on this crazy alphanumerical value in a minute! */
   color: #D5F2EA;
