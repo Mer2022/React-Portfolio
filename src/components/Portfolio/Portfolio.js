@@ -3,6 +3,8 @@ import passwordGenerator from "../../assets/small/passwordGenerator.png";
 import weatherApp from "../../assets/small/weatherApp.png";
 import GitFund from "../../assets/GitFund.png";
 import MyPortfolioS from "../../assets/MyPortfolioS.png";
+import NoteTaker from "../../assets/NoteTaker.png";
+import EmployeeTracker from "../../assets/EmployeeTracker.png";
 
 
 import javaScriptQuiz from "../../assets/small/javaScriptQuiz.png";
@@ -60,8 +62,53 @@ function Portfolio() {
           </div>
         </div>
 
-
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a href="https://github.com/Mer2022/Note-Taker">
+                {" "}
+                <img
+                  src={NoteTaker}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="NoteTaker"
+                />
+              </a>
+            </div>
+            <div className="job-text">
+              <h4>Note Taker</h4>
+              <p>
+              The Note Taker appplication can be used to write and save notes. 
+              This application will use an Express.js back end and will save 
+              and retrieve note data from a JSON file.{" "}
+              </p>
+            </div>
+          </div>
+        </div>
         
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a href="https://github.com/Mer2022/SQL.Employee-Tracker">
+                {" "}
+                <img
+                  src={EmployeeTracker}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="EmployeeTracker"
+                />
+              </a>
+            </div>
+            <div className="job-text">
+              <h4>Employee Tracker</h4>
+              <p>
+              The Employee Tracker can be used to manage a company's employee database, 
+              using Node.js, Inquirer, and MySQL.{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+
         <div className="job">
           <div className="job-info">
             <div className="job-img">
